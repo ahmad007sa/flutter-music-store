@@ -130,7 +130,7 @@ class _BuyingSucceededState extends State<BuyingSucceeded> {
                       children: [
                         const Center(
                           child: Text(
-                            'Odrer ID:',
+                            'Order ID:',
                             style: TextStyle(fontSize: 20),
                           ),
                         ),
