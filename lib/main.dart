@@ -1,3 +1,7 @@
+// Flutter Music Store
+// A demo e-commerce style music app built with Flutter and Firebase.
+// Features: Authentication, Admin management, Cart, Checkout and Invoice.
+
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 

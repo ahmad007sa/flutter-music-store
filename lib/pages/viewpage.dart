@@ -53,7 +53,8 @@ class _ViewPageState extends State<ViewPage> {
     getUserData();
   }
 
-//check if the user is adminstrator or not...
+// Simple admin role check based on Firebase UID.
+// In production apps this should be handled via backend or Firestore roles.
   void checkAdmin() {
     user != null
         ? user!.uid == 'kjqWcn6ihaN9kiNUG9dJdcPjjnn2'
