@@ -119,3 +119,7 @@ app.*.symbols
 # Firebase config
 google-services.json
 GoogleService-Info.plist
+
+# Android Studio
+.idea/
+*.iml
