@@ -1,7 +1,7 @@
 # Flutter Music Store 🎵
 
 A cross-platform **Music Store mobile application** built using Flutter and Firebase.
-The app allows users to browse songs, view details, add songs to a cart, simulate checkout, and generate an invoice.
+The app allows users to browse songs, view song details, add songs to a cart, simulate checkout, and generate an invoice.
 
 ---
 
@@ -42,37 +42,29 @@ The app allows users to browse songs, view details, add songs to a cart, simulat
 
 ### Authentication
 
-Login Screen
-![Login](screenshots/login.png)
+<img src="screenshots/login.png" width="300"/>
 
-Signup Validation
-![Signup Validation](screenshots/signup_validation.png)
+<img src="screenshots/signup_validation.png" width="300"/>
 
-Signup Screen
-![Signup](screenshots/signup.png)
+<img src="screenshots/signup.png" width="300"/>
 
 ---
 
 ### Browse Music
 
-Songs List
-![Songs](screenshots/songs.png)
+<img src="screenshots/songs.png" width="300"/>
 
-Song Details
-![Song Details](screenshots/song_details.png)
+<img src="screenshots/song_details.png" width="300"/>
 
 ---
 
 ### Cart & Checkout
 
-Shopping Cart
-![Cart](screenshots/cart.png)
+<img src="screenshots/cart.png" width="300"/>
 
-Payment Screen
-![Payment](screenshots/credit_card.png)
+<img src="screenshots/credit_card.png" width="300"/>
 
-Invoice Screen
-![Invoice](screenshots/invoice.png)
+<img src="screenshots/invoice.png" width="300"/>
 
 ---
 
