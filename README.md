@@ -37,34 +37,58 @@ The app allows users to browse songs, view song details, add songs to a cart, si
 * iOS
 
 ---
-
 ## Screenshots
 
-### Authentication
+### User Authentication
+
+Login Screen
 
 <img src="screenshots/login.png" width="300"/>
 
-<img src="screenshots/signup_validation.png" width="300"/>
+Signup Screen
 
 <img src="screenshots/signup.png" width="300"/>
 
+Signup Form Validation
+
+<img src="screenshots/signup_validation.png" width="300"/>
+
 ---
 
-### Browse Music
+### Music Browsing
+
+Songs List
 
 <img src="screenshots/songs.png" width="300"/>
+
+Song Details Page
 
 <img src="screenshots/song_details.png" width="300"/>
 
 ---
 
-### Cart & Checkout
+### Shopping Cart
+
+Add Songs to Cart & Swipe to Remove
 
 <img src="screenshots/cart.png" width="300"/>
 
+---
+
+### Payment Simulation
+
+Credit Card Payment Screen
+
 <img src="screenshots/credit_card.png" width="300"/>
 
+---
+
+### Invoice Generation
+
+Purchase Success & Invoice
+
 <img src="screenshots/invoice.png" width="300"/>
+
 
 ---
 
