@@ -7,7 +7,7 @@
 
 A cross-platform **Music Store mobile application** built using Flutter and Firebase.
 
-The app allows users to browse artists and songs, add music to a cart, simulate a checkout process, and generate invoices.
+The app allows users to browse artists and songs, add music to a cart, simulate a checkout process, and generate invoices after purchase.
 It also includes an **Admin Panel** for managing the music catalog.
 
 ---
@@ -44,7 +44,7 @@ You can download the latest APK from the GitHub releases page.
 * Delete songs and artists
 * Manage the music catalog
 
-Admin access is granted based on Firebase Authentication UID.
+Admin access is granted based on **Firebase Authentication UID**.
 
 ---
 
@@ -125,24 +125,33 @@ Admin users can manage the music catalog by adding or deleting artists and songs
 
 ## Admin Setup
 
-To enable admin access:
+To enable admin access in the application:
 
-1. Create a Firebase project.
-2. Connect the project with the Flutter application.
+1. Create a **Firebase project**.
+2. Connect the Firebase project with the Flutter application.
 3. Create a user account inside the app.
 4. Open **Firebase Authentication**.
-5. Copy the **UID** of the user.
-6. Paste the UID in the admin check inside the project.
+5. Copy the **UID** of the user you want to grant admin privileges.
+
+Then open the file:
+
+lib/pages/viewpage.dart
+
+Find the admin check function and replace the UID with your own.
 
 Example:
 
-```dart
+```
 void checkAdmin() {
-  admin = user?.uid == 'ADMIN_USER_UID';
+  user != null
+      ? user!.uid == 'ADMIN_USER_UID'
+          ? admin = true
+          : admin = false
+      : null;
 }
 ```
 
-Replace `ADMIN_USER_UID` with the UID of the user you want to grant admin access.
+Replace `ADMIN_USER_UID` with the UID copied from Firebase Authentication.
 
 ---
 
