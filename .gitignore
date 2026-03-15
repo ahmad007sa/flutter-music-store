@@ -123,3 +123,7 @@ GoogleService-Info.plist
 # Android Studio
 .idea/
 *.iml
+
+.env
+.env.*
+firebase_options.dart
